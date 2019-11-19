@@ -10,12 +10,11 @@ use app\models\Rey;
 
 $this->title = 'Rey';
 $this->params['breadcrumbs'][] = $this->title;
-\yii\helpers\VarDumper::dump($someData, 10, true);
 $i = 1;
 $a = 1;
 ?>
 <p class="zagl"> Рейтинг уcпеваемости студентов Радиотехнического колледжа </p>
-<p> Таблица со средним баллом </p>
+<p class="txt"> Таблица со средним баллом </p>
 
 <div class="one">
     <table class="tb">
@@ -38,7 +37,7 @@ $a = 1;
 
 </div>
 
-<p> Таблица с партфолио </p>
+<p class="txt"> Таблица с партфолио </p>
 
 <div class="two">
     <table class="tb2">

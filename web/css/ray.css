@@ -1,8 +1,9 @@
-p {
+.txt {
     font-size: 30px;
     font-weight: 600;
     text-align: center;
     padding-bottom: 30px;
+    color: #0000FF;
 }
 
 TABLE {
@@ -56,4 +57,7 @@ TD {
 .zagl {
     font-size: 45px;
     color: #0000FF;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
 }
